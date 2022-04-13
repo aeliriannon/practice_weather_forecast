@@ -3,7 +3,9 @@
     margin: 0;
 }
 
-.app-forecast__one .material-icons {
-    font-size: 95px;
-    line-height: 1;
+.app-forecast__one ._description {
+    vertical-align: middle;
+    font-size: 32px;
+    line-height: 95px;
+    font-weight: 100;
 }
