@@ -1,0 +1,9 @@
+.app-forecast__one h2 {
+    font: 100 95px/1 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.app-forecast__one .material-icons {
+    font-size: 95px;
+    line-height: 1;
+}

@@ -1,0 +1,10 @@
+.tabs .tab a {
+    color: #000;
+    font-weight: 300;
+    font-size: 22px;
+}
+.tabs .tab a:hover,
+.tabs .tab a.active {
+    color: #000;
+    background-color: #90a4ae;
+}
