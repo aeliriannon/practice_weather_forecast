@@ -9,7 +9,7 @@ import './app-forecast-tabs-one.css';
 const AppForecastTabsOne = () => {
 
     let oneForecast = [];
-    axios.get('https://api.openweathermap.org/data/2.5/weather?q=Минск,BY&units=metric&lang=ru&appid=856663d2b72927fe7a6f140d38a378a3')
+    axios.get('https://api.openweathermap.org/data/2.5/weather?q=Минск,BY&units=metric&lang=ru&appid={key}')
         .then(data => {
             oneForecast.push(data.data.main, data.data.weather[0]);
             let temperature = oneForecast[0].temp;
