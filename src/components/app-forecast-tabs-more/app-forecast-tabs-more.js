@@ -1,29 +1,16 @@
+import AppForecastTabsMoreItem from '../app-forecast-tabs-more-item.js/app-forecast-tabs-more-item';
 import './app-forecast-tabs-more.css';
 
-const AppForecastTabsMore = () => {
+const AppForecastTabsMore = ({ dataForecast }) => {
+    const elements = dataForecast.map((item, i) => {
+        return (
+            <AppForecastTabsMoreItem key={i} {...item} />
+        );
+    });
     return (
         <div id="more" className='app-forecast__more hide'>
             <div className="row">
-                <div className="col s2 offset-s1">
-                    <h2>22°C</h2>
-                    <p><i className="material-icons _sun">wb_sunny</i></p>
-                </div>
-                <div className="col s2">
-                    <h2>22°C</h2>
-                    <p><i className="material-icons _sun">wb_sunny</i></p>
-                </div>
-                <div className="col s2">
-                    <h2>22°C</h2>
-                    <p><i className="material-icons _sun">wb_sunny</i></p>
-                </div>
-                <div className="col s2">
-                    <h2>22°C</h2>
-                    <p><i className="material-icons _sun">wb_sunny</i></p>
-                </div>
-                <div className="col s2">
-                    <h2>22°C</h2>
-                    <p><i className="material-icons _sun">wb_sunny</i></p>
-                </div>
+                {elements}
             </div>
         </div>
     );

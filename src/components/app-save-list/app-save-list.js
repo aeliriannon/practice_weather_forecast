@@ -2,11 +2,11 @@ import AppSaveListItem from '../app-save-list-item/app-save-list-item';
 
 import './app-save-list.css';
 
-const AppSaveList = ({data}) => {
+const AppSaveList = ({ data }) => {
 
-    const elements = data.map(item => {
+    const elements = data.map((item, i) => {
         return (
-            <AppSaveListItem {...item} />
+            <AppSaveListItem key={i} {...item} />
         );
     });
 

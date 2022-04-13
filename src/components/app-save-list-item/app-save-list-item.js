@@ -5,7 +5,7 @@ const AppSaveListItem = ({ city }) => {
                 {city}
                 <div className="secondary-content">
                     <a href="#!">
-                        <i class="material-icons">replay</i>
+                        <i className="material-icons">replay</i>
                     </a>
                     <a href="#!">
                         <i className="material-icons _delete">delete_forever</i>
