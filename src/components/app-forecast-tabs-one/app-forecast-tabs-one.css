@@ -1,0 +1,18 @@
+.app-forecast__one h2 {
+    vertical-align: middle;
+    font: 100 72px/100px 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.app-forecast__one ._icon,
+.app-forecast__one ._description {
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+.app-forecast__one ._description {
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 1;
+}
