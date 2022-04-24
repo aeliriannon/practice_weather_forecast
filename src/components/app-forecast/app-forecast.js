@@ -1,6 +1,6 @@
 
 import AppForecastTabs from '../app-forecast-tabs/app-forecast-tabs';
-import AppForecastTabsOne from '../app-frecast-tabs-one/app-forecast-tabs-one';
+import AppForecastTabsOne from '../app-forecast-tabs-one/app-forecast-tabs-one';
 import AppForecastTabsMore from '../app-forecast-tabs-more/app-forecast-tabs-more';
 
 import './app-forecast.css';
