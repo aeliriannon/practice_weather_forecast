@@ -1,0 +1,15 @@
+.app-forecast .row {
+    margin-bottom: 0;
+}
+.app-forecast .material-icons._sun {
+    color: #eeff41;
+}
+.app-forecast .material-icons._cloud {
+    color: #283593  ;
+}
+.app-forecast .material-icons._rain {
+    color: #f50057 ;
+}
+.app-forecast .material-icons._snow {
+    color: #e3f2fd;
+}

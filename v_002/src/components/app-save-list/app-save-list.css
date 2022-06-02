@@ -1,0 +1,10 @@
+.app-save .secondary-content a {
+    display: inline-block;
+    color: #26a69a;    
+}
+.app-save .secondary-content a + a {
+    margin-left: 8px;
+}
+.app-save .secondary-content ._delete {
+    color: #d50000;
+}

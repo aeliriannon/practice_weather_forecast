@@ -1,5 +1,5 @@
 import AppForecastTabsMoreItem from '../app-forecast-tabs-more-item.js/app-forecast-tabs-more-item';
-import ReactDOM from 'react-dom';
+
 import React from 'react';
 
 
@@ -19,7 +19,7 @@ const AppForecastTabsMore = () => {
                     let date = item.dt_txt;
                     return { temperature, description, urlIcon, date };
                 })
-                console.log(newArray);
+                // console.log(newArray);
                 setData(newArray);
             })
     }, []);
@@ -34,7 +34,7 @@ const AppForecastTabsMore = () => {
     // });
 
     return (
-        <div id="more" className='app-forecast__more'>
+        <div id="more" className='app-forecast__more' style={{display: 'none'}}>
             {data.map((item, i) => (<AppForecastTabsMoreItem key={i} {...item} />))}
 
 
